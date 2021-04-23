@@ -1,0 +1,19 @@
+if [[ -z ${DIR_ROOT} ]]
+then
+	export DIR_ROOT="$PWD"
+fi
+
+source ../OK10xx-linux-fs/flexbuild/setup.env 
+
+#rm -rf build
+#echo "create build dir.."
+mkdir -p build
+echo "now export ......"
+#export ARCH=powerpc${prefix}
+#export BUILD_DIR="$(DIR_ROOT)/build"
+#export ARCH=$(arch)
+export ARCH=aarch64
+echo "current ARCH:"
+echo ${ARCH}
+export CROSS_COMPILE=
+export CC=

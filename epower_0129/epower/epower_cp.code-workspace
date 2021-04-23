@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"global.h": "c",
+			"epower_pub.h": "c",
+			"adio.h": "c"
+		}
+	}
+}

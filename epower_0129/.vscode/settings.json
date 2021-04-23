@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "global.h": "c",
+        "adio.h": "c",
+        "pthread_get_data.h": "c"
+    }
+}

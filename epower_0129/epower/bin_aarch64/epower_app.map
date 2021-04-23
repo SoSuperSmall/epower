@@ -1,0 +1,632 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                              ./app/objs_aarch64/epower_app_main.o (Sample_devs_get)
+/home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+                              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o) (alloc_shared_mem)
+/home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+                              ./app/objs_aarch64/epower_app_pthread_uart_show.o (libtty_setopt)
+/usr/aarch64-linux-gnu/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpthread.so.0               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o) (close@@GLIBC_2.17)
+libc.so.6                     /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o) (free@@GLIBC_2.17)
+ld-linux-aarch64.so.1         ./app/objs_aarch64/epower_app_pthread_get_data.o (__stack_chk_guard@@GLIBC_2.17)
+
+Allocating common symbols
+Common symbol       size              file
+
+pthread_getdata     0x8               ./app/objs_aarch64/epower_app_main.o
+fp                  0x8               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+pthread_getdata2    0x8               ./app/objs_aarch64/epower_app_pthread_get_data.o
+shmdata2_flag       0x4               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+shmdata1_flag       0x4               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+tEnd                0x10              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+sock_raw_fd         0x4               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+pthread_receive_data
+                    0x8               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+receive_data_flag   0x4               /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+pthread_get_data    0x8               ./app/objs_aarch64/epower_app_pthread_get_data.o
+tBegin              0x10              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+sll                 0x14              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+req                 0x28              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+pthread_getdata1    0x8               ./app/objs_aarch64/epower_app_pthread_get_data.o
+client              0x14              /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+shm1_mutex          0x180             /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+shm2_mutex          0x180             /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+pthread_uart_show   0x8               ./app/objs_aarch64/epower_app_pthread_uart_show.o
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+ .text          0x0000000000000000       0x90 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .data          0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .bss           0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .rodata.str1.8
+                0x0000000000000000       0x3d ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_info    0x0000000000000000      0x8fb ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_abbrev  0x0000000000000000      0x238 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_loc     0x0000000000000000      0x118 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_line    0x0000000000000000      0x2a8 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_str     0x0000000000000000      0x5ee ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .comment       0x0000000000000000       0x31 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .debug_frame   0x0000000000000000       0x38 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ COMMON         0x0000000000000000        0x8 ./app/objs_aarch64/epower_app_pthread_uart_show.o
+ .data          0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .bss           0x0000000000000000        0x4 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./app/objs_aarch64/epower_app_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .data          0x0000000000000000        0x0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+ .text          0x0000000000000000      0x808 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .data          0x0000000000000000       0xc4 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .bss           0x0000000000000000        0xc /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .data.rel.local
+                0x0000000000000000        0x8 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .rodata.str1.8
+                0x0000000000000000      0x1f3 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_info    0x0000000000000000     0x1582 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_abbrev  0x0000000000000000      0x311 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_loc     0x0000000000000000      0xcb2 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_ranges  0x0000000000000000       0x90 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_line    0x0000000000000000      0x405 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_str     0x0000000000000000      0x6fe /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .comment       0x0000000000000000       0x31 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .debug_frame   0x0000000000000000      0x2c0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ COMMON         0x0000000000000000        0x8 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a(tty_uart_tty_uart.o)
+ .data          0x0000000000000000        0x0 /usr/aarch64-linux-gnu/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/aarch64-linux-gnu/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/aarch64-linux-gnu/lib/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+LOAD ./app/objs_aarch64/epower_app_pthread_uart_show.o
+LOAD ./app/objs_aarch64/epower_app_pthread_get_data.o
+LOAD ./app/objs_aarch64/epower_app_main.o
+LOAD /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a
+LOAD /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a
+LOAD /home/forlinx/epower/epower_0129/epower/lib_aarch64/libtty_uart.a
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/libm.so
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/libgcc_s.so
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/libpthread.so
+START GROUP
+LOAD /usr/aarch64-linux-gnu/lib/libpthread.so.0
+LOAD /usr/aarch64-linux-gnu/lib/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/libc.so
+START GROUP
+LOAD /usr/aarch64-linux-gnu/lib/libc.so.6
+LOAD /usr/aarch64-linux-gnu/lib/libc_nonshared.a
+LOAD /usr/aarch64-linux-gnu/lib/ld-linux-aarch64.so.1
+END GROUP
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/libgcc_s.so
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+LOAD /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000200                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000200       0x1b
+ *(.interp)
+ .interp        0x0000000000000200       0x1b /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.note.ABI-tag   0x000000000000021c       0x20
+ .note.ABI-tag  0x000000000000021c       0x20 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.note.gnu.build-id
+                0x000000000000023c       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000023c       0x24 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000260       0x1c
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000260       0x1c /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.dynsym         0x0000000000000280      0x498
+ *(.dynsym)
+ .dynsym        0x0000000000000280      0x498 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.dynstr         0x0000000000000718      0x212
+ *(.dynstr)
+ .dynstr        0x0000000000000718      0x212 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version    0x000000000000092a       0x62
+ *(.gnu.version)
+ .gnu.version   0x000000000000092a       0x62 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version_d  0x0000000000000990        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000990        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.gnu.version_r  0x0000000000000990       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000990       0x60 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.rela.dyn       0x00000000000009f0      0x2a0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000009f0        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000009f0       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000a08      0x258 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000000c60        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000c60        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.init_array
+                0x0000000000000c60       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ .rela.fini_array
+                0x0000000000000c78       0x18 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.rela.plt       0x0000000000000c90      0x3c0
+ *(.rela.plt)
+ .rela.plt      0x0000000000000c90      0x3c0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000001050       0x14
+ *(SORT_NONE(.init))
+ .init          0x0000000000001050        0xc /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+                0x0000000000001050                _init
+ .init          0x000000000000105c        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+
+.plt            0x0000000000001070      0x2a0
+ *(.plt)
+ .plt           0x0000000000001070      0x2a0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.iplt)
+
+.text           0x0000000000001310     0x23bc
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000001310       0x54 ./app/objs_aarch64/epower_app_main.o
+                0x0000000000001310                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001364       0x38 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000001364                _start
+ .text          0x000000000000139c       0x14 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+ .text          0x00000000000013b0       0xb4 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+ *fill*         0x0000000000001464        0x4 00000000
+ .text          0x0000000000001468      0x60c ./app/objs_aarch64/epower_app_pthread_get_data.o
+                0x0000000000001468                analysis_shmdata1
+                0x0000000000001748                analysis_shmdata2
+                0x0000000000001a28                read_data_pthread
+ *fill*         0x0000000000001a74        0x4 00000000
+ .text          0x0000000000001a78      0x9a8 ./app/objs_aarch64/epower_app_main.o
+                0x0000000000001a78                shm_read
+                0x0000000000001ed0                cmd_proc
+ .text          0x0000000000002420     0x1034 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                0x0000000000002420                receive_pthread
+                0x0000000000002730                error_and_die
+                0x0000000000002744                Sample_devs_get
+                0x000000000000274c                Sample_info_get
+                0x0000000000002874                Sample_init
+                0x0000000000002c80                Sample_open
+                0x00000000000031b0                Sample_read
+                0x00000000000031e4                Sample_write
+                0x0000000000003294                Sample_close
+                0x0000000000003360                Sample_exit
+ *fill*         0x0000000000003454        0x4 00000000
+ .text          0x0000000000003458      0x1f0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+                0x0000000000003458                alloc_shared_mem
+                0x0000000000003520                allocated_shared_mem
+                0x00000000000035e8                free_shared_mem
+ .text          0x0000000000003648       0x84 /usr/aarch64-linux-gnu/lib/libc_nonshared.a(elf-init.oS)
+                0x0000000000003648                __libc_csu_init
+                0x00000000000036c8                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x00000000000036cc       0x10
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000036cc        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crti.o
+                0x00000000000036cc                _fini
+ .fini          0x00000000000036d4        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00000000000036e0      0xbc8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000000000036e0       0x2a ./app/objs_aarch64/epower_app_pthread_get_data.o
+ *fill*         0x000000000000370a        0x6 
+ .rodata.str1.8
+                0x0000000000003710      0x13c ./app/objs_aarch64/epower_app_pthread_get_data.o
+ *fill*         0x000000000000384c        0x4 
+ .rodata        0x0000000000003850       0x29 ./app/objs_aarch64/epower_app_main.o
+ *fill*         0x0000000000003879        0x7 
+ .rodata.str1.8
+                0x0000000000003880      0x3c2 ./app/objs_aarch64/epower_app_main.o
+                                        0x3d2 (size before relaxing)
+ *fill*         0x0000000000003c42        0x6 
+ .rodata        0x0000000000003c48       0x3c /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ *fill*         0x0000000000003c84        0x4 
+ .rodata.str1.8
+                0x0000000000003c88      0x606 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                                        0x69e (size before relaxing)
+ *fill*         0x000000000000428e        0x2 
+ .rodata.str1.8
+                0x0000000000004290       0x18 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+                                         0x17 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000042a8        0x4
+ *(.eh_frame)
+ .eh_frame      0x00000000000042a8        0x4 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000014bb8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000014bb8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000014bb8        0x8
+                0x0000000000014bb8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000014bb8        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+                0x0000000000014bc0                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000014bc0        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000014bc0        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000014bc8        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000014bc8        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+
+.dynamic        0x0000000000014bc8      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000014bc8      0x210 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000014bc8                _DYNAMIC
+
+.got            0x0000000000014dd8      0x228
+ *(.got.plt)
+ .got.plt       0x0000000000014dd8      0x158 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000014f30       0xd0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+                0x0000000000014f30                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x0000000000015000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000015000      0xa18
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000015000        0x8 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+                0x0000000000015000                __dso_handle
+ .data          0x0000000000015008      0x45c ./app/objs_aarch64/epower_app_main.o
+                0x0000000000015008                global_print_dbg
+                0x0000000000015010                MaxVol
+                0x0000000000015018                gparr_cmds
+ *fill*         0x0000000000015464        0x4 
+ .data          0x0000000000015468      0x5b0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                0x0000000000015468                send_msg
+
+.tm_clone_table
+                0x0000000000015a18        0x0
+ .tm_clone_table
+                0x0000000000015a18        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+ .tm_clone_table
+                0x0000000000015a18        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000015a18                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000015a18                . = .
+                0x0000000000015a18                __bss_start = .
+                0x0000000000015a18                __bss_start__ = .
+
+.bss            0x0000000000015a18      0x400
+ *(.dynbss)
+ .dynbss        0x0000000000015a18        0x0 /usr/lib/gcc-cross/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/lib/../lib/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000015a18        0x1 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+ *fill*         0x0000000000015a19        0x7 
+ .bss           0x0000000000015a20       0x10 ./app/objs_aarch64/epower_app_main.o
+                0x0000000000015a20                realVol
+                0x0000000000015a28                send_info
+ .bss           0x0000000000015a30       0x1c /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                0x0000000000015a30                gpst_DevCfg
+                0x0000000000015a38                gb_sampleinit
+                0x0000000000015a3c                num
+                0x0000000000015a40                receive_pthread_start
+                0x0000000000015a44                read_pthread_start
+                0x0000000000015a48                gw_DevIdx
+                0x0000000000015a4a                gw_DevCnt
+ *fill*         0x0000000000015a4c        0x4 
+ .bss           0x0000000000015a50       0x10 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+ *(COMMON)
+ COMMON         0x0000000000015a60       0x18 ./app/objs_aarch64/epower_app_pthread_get_data.o
+                0x0000000000015a60                pthread_getdata2
+                0x0000000000015a68                pthread_get_data
+                0x0000000000015a70                pthread_getdata1
+ COMMON         0x0000000000015a78        0x8 ./app/objs_aarch64/epower_app_main.o
+                0x0000000000015a78                pthread_getdata
+ COMMON         0x0000000000015a80      0x398 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                0x0000000000015a80                shmdata2_flag
+                0x0000000000015a84                shmdata1_flag
+                0x0000000000015a88                tEnd
+                0x0000000000015a98                sock_raw_fd
+                0x0000000000015aa0                pthread_receive_data
+                0x0000000000015aa8                receive_data_flag
+                0x0000000000015ab0                tBegin
+                0x0000000000015ac0                sll
+                0x0000000000015ad8                req
+                0x0000000000015b00                client
+                0x0000000000015b18                shm1_mutex
+                0x0000000000015c98                shm2_mutex
+                0x0000000000015e18                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000015e18                _bss_end__ = .
+                0x0000000000015e18                __bss_end__ = .
+                0x0000000000015e18                . = ALIGN (0x8)
+                0x0000000000015e18                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000015e18                . = ALIGN (0x8)
+                0x0000000000015e18                __end__ = .
+                0x0000000000015e18                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000015e18                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x30
+ *(.comment)
+ .comment       0x0000000000000000       0x30 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtbeginS.o
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .comment       0x0000000000000030       0x31 ./app/objs_aarch64/epower_app_main.o
+ .comment       0x0000000000000030       0x31 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .comment       0x0000000000000030       0x31 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+ .comment       0x0000000000000030       0x31 /usr/lib/gcc-cross/aarch64-linux-gnu/7/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xd0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_aranges
+                0x0000000000000030       0x40 ./app/objs_aarch64/epower_app_main.o
+ .debug_aranges
+                0x0000000000000070       0x30 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_aranges
+                0x00000000000000a0       0x30 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5e31
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xdf2 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_info    0x0000000000000df2     0x1dbe ./app/objs_aarch64/epower_app_main.o
+ .debug_info    0x0000000000002bb0     0x2c92 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_info    0x0000000000005842      0x5ef /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_abbrev   0x0000000000000000      0xc43
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x28b ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_abbrev  0x000000000000028b      0x39d ./app/objs_aarch64/epower_app_main.o
+ .debug_abbrev  0x0000000000000628      0x4b9 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_abbrev  0x0000000000000ae1      0x162 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_line     0x0000000000000000     0x1512
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x447 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_line    0x0000000000000447      0x7b1 ./app/objs_aarch64/epower_app_main.o
+ .debug_line    0x0000000000000bf8      0x7b7 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_line    0x00000000000013af      0x163 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_frame    0x0000000000000000      0x690
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x188 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_frame   0x0000000000000188       0xf0 ./app/objs_aarch64/epower_app_main.o
+ .debug_frame   0x0000000000000278      0x330 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_frame   0x00000000000005a8       0xe8 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_str      0x0000000000000000      0xeca
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x615 ./app/objs_aarch64/epower_app_pthread_get_data.o
+                                        0x6c5 (size before relaxing)
+ .debug_str     0x0000000000000615      0x298 ./app/objs_aarch64/epower_app_main.o
+                                        0x915 (size before relaxing)
+ .debug_str     0x00000000000008ad      0x5a7 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+                                        0xcd1 (size before relaxing)
+ .debug_str     0x0000000000000e54       0x76 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+                                        0x376 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x3435
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x4f0 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_loc     0x00000000000004f0      0xf2f ./app/objs_aarch64/epower_app_main.o
+ .debug_loc     0x000000000000141f     0x1d97 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+ .debug_loc     0x00000000000031b6      0x27f /home/forlinx/epower/epower_0129/epower/lib_aarch64/libepshmem.a(epshmem_epshmem.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x8b0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x1c0 ./app/objs_aarch64/epower_app_pthread_get_data.o
+ .debug_ranges  0x00000000000001c0      0x540 ./app/objs_aarch64/epower_app_main.o
+ .debug_ranges  0x0000000000000700      0x1b0 /home/forlinx/epower/epower_0129/epower/lib_aarch64/libadio.a(adio_adio.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/forlinx/epower/epower_0129/epower/bin_aarch64/epower_app elf64-littleaarch64)

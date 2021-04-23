@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"": {
+		"files.associations": {
+			"type.h": "c",
+			"ad7606.h": "c"
+		}
+	}
+}
