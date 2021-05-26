@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 111, 123, LIC=ZB4Y8-3M70S-PAPDH-WFRSH-1TV5V-6D31D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  D:\soft\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+E:\ok1061\SDK_2_6_2_EVKB_IMXRT1061\boards\evkmimxrt1060\driver_examples\enet\txrx_ptp1588_transfer\mdk\enet_txrx_ptp1588_transfer.uvprojx
+Project File Date:  02/19/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\soft\MDK\ARM\ARMCC\Bin'
+Rebuild target 'enet_txrx_ptp1588_transfer flexspi_nor_release'
+compiling fsl_cache.c...
+compiling fsl_phy.c...
+../../../../../../components/phyksz8081/fsl_phy.c(45): warning:  #177-D: variable "bssReg"  was declared but never referenced
+      uint32_t bssReg;
+../../../../../../components/phyksz8081/fsl_phy.c(50): warning:  #177-D: variable "timeDelay"  was declared but never referenced
+      uint32_t timeDelay;
+../../../../../../components/phyksz8081/fsl_phy.c(51): warning:  #177-D: variable "ctlReg"  was declared but never referenced
+      uint32_t ctlReg = 0;
+../../../../../../components/phyksz8081/fsl_phy.c: 3 warnings, 0 errors
+compiling fsl_clock.c...
+compiling pin_mux.c...
+compiling clock_config.c...
+compiling enet_txrx_ptp1588_transfer.c...
+../enet_txrx_ptp1588_transfer.c(147): warning:  #550-D: parameter "handle"  was set but never used
+  static void ethernet_ptptime_enablepps(ENET_Type *base, enet_handle_t handle, enet_ptp_timer_channel_t tmr_ch)
+../enet_txrx_ptp1588_transfer.c(454): warning:  #128-D: loop is not reachable
+  		while (1)
+../enet_txrx_ptp1588_transfer.c(323): warning:  #177-D: variable "length"  was declared but never referenced
+      uint32_t length = 0;
+../enet_txrx_ptp1588_transfer.c(325): warning:  #550-D: variable "ptpClock"  was set but never used
+      uint32_t ptpClock;
+../enet_txrx_ptp1588_transfer.c(326): warning:  #177-D: variable "count"  was declared but never referenced
+      uint32_t count = 0;
+../enet_txrx_ptp1588_transfer.c(327): warning:  #177-D: variable "link"  was declared but never referenced
+      bool link      = false;
+../enet_txrx_ptp1588_transfer.c(328): warning:  #177-D: variable "speed"  was declared but never referenced
+      phy_speed_t speed;
+../enet_txrx_ptp1588_transfer.c(329): warning:  #177-D: variable "duplex"  was declared but never referenced
+      phy_duplex_t duplex;
+../enet_txrx_ptp1588_transfer.c(330): warning:  #177-D: variable "result"  was declared but never referenced
+      status_t result;
+../enet_txrx_ptp1588_transfer.c(331): warning:  #177-D: variable "txnumber"  was declared but never referenced
+      uint32_t txnumber = 0;
+../enet_txrx_ptp1588_transfer.c(332): warning:  #177-D: variable "ptpData"  was declared but never referenced
+      enet_ptp_time_data_t ptpData;
+../enet_txrx_ptp1588_transfer.c(333): warning:  #177-D: variable "ptpTime"  was declared but never referenced
+      enet_ptp_time_t ptpTime;
+../enet_txrx_ptp1588_transfer.c(334): warning:  #550-D: variable "setTime"  was set but never used
+  		enet_ptp_time_t setTime;
+../enet_txrx_ptp1588_transfer.c(335): warning:  #177-D: variable "totalDelay"  was declared but never referenced
+      uint32_t totalDelay;
+../enet_txrx_ptp1588_transfer.c(336): warning:  #177-D: variable "status"  was declared but never referenced
+      status_t status;
+../enet_txrx_ptp1588_transfer.c(337): warning:  #177-D: variable "mGAddr"  was declared but never referenced
+      uint8_t mGAddr[6] = {0x01, 0x00, 0x5e, 0x01, 0x01, 0x1};
+../enet_txrx_ptp1588_transfer.c(443): warning:  #177-D: variable "offset"  was declared but never referenced
+  		int offset = 0;
+../enet_txrx_ptp1588_transfer.c(124): warning:  #177-D: function "ENET_BuildPtpEventFrame"  was declared but never referenced
+  static void ENET_BuildPtpEventFrame(void)
+../enet_txrx_ptp1588_transfer.c: 18 warnings, 0 errors
+compiling board.c...
+compiling fsl_common.c...
+compiling fsl_enet.c...
+compiling fsl_lpuart.c...
+compiling fsl_gpio.c...
+compiling system_MIMXRT1062.c...
+compiling fsl_debug_console.c...
+assembling startup_MIMXRT1062.s...
+compiling fsl_str.c...
+compiling fsl_assert.c...
+compiling evkmimxrt1060_sdram_ini_dcd.c...
+compiling lpuart_adapter.c...
+compiling serial_manager.c...
+compiling serial_port_uart.c...
+compiling generic_list.c...
+compiling evkmimxrt1060_flexspi_nor_config.c...
+compiling fsl_flexspi_nor_boot.c...
+linking...
+Program Size: Code=11648 RO-data=1928 RW-data=52 ZI-data=21196  
+"flexspi_nor_release\enet_txrx_ptp1588_transfer.out" - 0 Error(s), 21 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MIMXRT1062_DFP.12.0.0.pack
+                NXP.MIMXRT1062_DFP.12.0.0
+                Device Family Pack for MIMXRT1062
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_enet_txrx_ptp1588_transfer_flexspi_nor_release
+  D:\soft\MDK_pack\NXP\MIMXRT1062_DFP\12.0.0
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:01:20
+</pre>
+</body>
+</html>

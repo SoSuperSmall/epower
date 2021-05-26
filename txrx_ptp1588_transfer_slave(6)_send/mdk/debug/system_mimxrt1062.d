@@ -1,0 +1,11 @@
+debug\system_mimxrt1062.o: ../../../../../../devices/MIMXRT1062/system_MIMXRT1062.c
+debug\system_mimxrt1062.o: D:\soft\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+debug\system_mimxrt1062.o: ../../../../../../devices/MIMXRT1062/fsl_device_registers.h
+debug\system_mimxrt1062.o: ../../../../../../devices/MIMXRT1062/MIMXRT1062.h
+debug\system_mimxrt1062.o: ../../../../../../CMSIS/Include/core_cm7.h
+debug\system_mimxrt1062.o: ../../../../../../CMSIS/Include/cmsis_version.h
+debug\system_mimxrt1062.o: ../../../../../../CMSIS/Include/cmsis_compiler.h
+debug\system_mimxrt1062.o: ../../../../../../CMSIS/Include/cmsis_armcc.h
+debug\system_mimxrt1062.o: ../../../../../../CMSIS/Include/mpu_armv7.h
+debug\system_mimxrt1062.o: ../../../../../../devices/MIMXRT1062/system_MIMXRT1062.h
+debug\system_mimxrt1062.o: ../../../../../../devices/MIMXRT1062/MIMXRT1062_features.h
